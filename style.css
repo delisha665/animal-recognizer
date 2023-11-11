@@ -1,0 +1,52 @@
+body {
+    background-color: #B2EAE5;
+
+}
+
+h1 {
+    font-family: Dancing Script;
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 50px;
+}
+
+hr {
+    color: #006D77;
+}
+
+.underline {
+    background-color: #006D77;
+    width: 1535px;
+    height: 2px;
+}
+
+#list {
+    background-color: #83C5BE;
+    padding: 20px;
+    border: 3px #042629 solid;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+#animals {
+    font-family: cursive;
+    margin-top: 15px;
+    background-color: aquamarine;
+    border: 3px #042629 solid;
+    font-weight: bold;
+
+}
+#footer{
+    background-color: #bde0fe;
+    /* position: absolute; */
+    bottom: 0;
+    width:100%;
+    height:70px;
+    padding-top:20px;
+    text-shadow: grey 4px  4px 10px;
+    position: fixed;
+
+}
+#ears,#dog,#cat,#sheep,#lion,#sheep,#bg,#pig{
+    display: none;
+}

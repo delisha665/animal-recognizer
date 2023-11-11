@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Are+You+Serious&family=Lora&family=Luckiest+Guy&family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Are+You+Serious&family=Dancing+Script&family=Lora&family=Luckiest+Guy&family=Nerko+One&display=swap" rel="stylesheet">
+    <title>Animal Sound Recognizer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <center>
+        <div id="header">
+          <h1>Animal Sound Recognizer</h1>
+          <!-- <div class="underline"></div> -->
+          <br>
+        </div>
+        <div id="list">
+          <label>This model is trained to identify the sounds of the animals given below:</label>
+     <br>
+     <hr>
+            <label>Lion</label>
+            <hr>
+            <label>Pig</label>
+            <hr>
+            <label>Dog</label>
+            <hr>
+            <label>Cat</label>
+            <hr>
+            <label>Sheep</label>
+            <hr>
+          </b>
+        
+        <label>Make the noice of any animal listed here to start with the model</label>
+    </div>
+       <br><br><br>
+        <div id="animals">
+          <br><br>
+          <button onclick="start()" id="start" class="btn btn-success">Start</button>
+          <br><br>
+          <img id="dog" src="dog.gif" width="300" height="300">
+          <img id="cat" src="cat.gif" width="300" height="300">
+          <img id="pig" src="pig.gif" width="300" height="300">
+          <img id="sheep" src="sheep.gif" width="300" height="300">
+          <img id="lion" src="lion.gif" width="300" height="300">
+          <img id="ears" src="ears.gif"  width="300" height="300">
+<Label id="bg">Please say something.</Label>
+          <br><br><br>
+          <h4>Sound: <span id="sound"></span></h4>
+          <h4>Accuracy:<span id="accuracy"></span></h4>
+        </div>
+        <br><br><br><br><br>
+        <div id="footer">
+          <h4 style="font-size: 25px; font-weight: bold;">By:Delisha Jain</h4>
+        </div>
+              </center>
+        <script src="main.js"></script>
+        
+</body>
+</html>
